@@ -1,0 +1,37 @@
+<canvas id="loop" width="100" height="100"></canvas>
+<script>
+function loop() {
+    /* Canvas要素の定義など */
+    var cs  = document.getElementById('loop');
+    var ctx = cs.getContext('2d');
+    var w = cs.width;
+    var h = cs.height;
+    var x = 0;
+
+    /* 描画フロー */
+    function render() {
+        ctx.clearRect(0, 0, w, h); // Canvas全体をクリア
+        ctx.beginPath();
+        ctx.strokeRect(x, 0, 10, 10);  //四角形を描く
+
+        // 四角形のx座標がCanvasの横幅を超えたら初期位置(x座標を0)へ
+        // そうでなければ、x座標を1増やす
+        if (x > cs.width) {
+            x = 0;
+        } else {
+            x += 1;
+        }
+
+        // 繰り返し処理に下記どちらかを使った場合、※1を有効化（もしくは即時実行）
+        // setTimeout(render, 100);
+        // requestAnimationFrame(render);
+    }
+    /* ※1 */
+    // render();
+
+    /* 100ミリ秒ごとに、描画フローを繰り返す */
+    /* setTimeout、requestAnimationFrameではなく、setIntervalを使う場合 */
+    setInterval(render, 100);
+}
+loop();
+</script>
