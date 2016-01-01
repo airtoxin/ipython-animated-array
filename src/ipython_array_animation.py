@@ -2,12 +2,24 @@
 
 from IPython.display import HTML, display
 from jinja2 import Environment, FileSystemLoader
+from vizarray import vizarray
 
 class AnimateArray(object):
-    def __init__(self):
+    def __init__(self, viz_list, cmap='cool'):
         super(AnimateArray, self).__init__()
         self.env = Environment(loader=FileSystemLoader('./template/', encoding='utf8'))
+        self.cmap = cmap
+        self.htmls = self.get_htmls(viz_list)
+
+    def get_htmls(self, viz_list):
+        return [
+            vizarray(viz, cmap=self.cmap)._repr_html_()
+            for viz in viz_list
+        ]
 
     def show(self):
         template = self.env.get_template('animatetag.tpl.html')
-        display(HTML(template.render()))
+        display(HTML(template.render({
+            'htmls': self.htmls,
+            'id': id(self.htmls)
+        })))
