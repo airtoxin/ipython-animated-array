@@ -13,7 +13,7 @@ setup(
     author='Ryoji Ishii',
     author_email='airtoxin@icloud.com',
     license='MIT',
-    url='https://github.com/airtoxin/ipython-array-animation',
+    url='https://github.com/airtoxin/ipython-animated-array',
     packages=find_packages(exclude=['build', 'doc', 'template']),
     include_package_data=True,
     zip_safe=False,

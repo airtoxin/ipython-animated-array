@@ -1,20 +1,20 @@
-# ipython-array-animation
+# ipython-animated-array
 
-animated array rendering on ipython-notebook (jupyter)
+render animated array on ipython-notebook (jupyter)
 
-[![https://gyazo.com/cfce4e057c9907ec4a625331b5fc71c2](https://i.gyazo.com/cfce4e057c9907ec4a625331b5fc71c2.gif)](https://gyazo.com/cfce4e057c9907ec4a625331b5fc71c2)
+[![https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c](https://i.gyazo.com/5e0f68746ce124a0891749903b6c8a3c.gif)](https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c)
 
 
 ## Install
 
-`pip install ipython-array-animation`
+`pip install ipython-animated-array`
 
 
 ## Document
 
-### _Module_ `ipython_array_animation`
+### _Module_ `ipython_animated_array`
 
-#### _Class_ `ipython_array_animation.AnimateArray`
+#### _Class_ `ipython_animated_array.AnimateArray`
 
 ##### `constructor(viz_list, cmap='cool')`
 
