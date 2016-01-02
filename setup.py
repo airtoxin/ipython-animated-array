@@ -32,5 +32,6 @@ setup(
         'ipythonblocks', # vizarray dependency
         'numpy', # vizarray dependency
         'matplotlib<1.5', # vizarray dependency
-    ]
+    ],
+    tests_require=['pytest', 'tox']
 )
