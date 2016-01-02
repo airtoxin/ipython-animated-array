@@ -18,9 +18,11 @@ class AnimateArray(object):
             for viz in viz_list
         ]
 
-    def show(self):
+    def show(self, reflesh=1000):
+        print(reflesh)
         template = self.env.get_template('animatetag.tpl.html')
         display(HTML(template.render({
             'htmls': self.htmls,
-            'id': id(self.htmls)
+            'id': id(self.htmls),
+            'reflesh': reflesh
         })))
