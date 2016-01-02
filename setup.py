@@ -26,6 +26,7 @@ setup(
     ],
     keywords='ipython jupyter animation array',
     install_requires=[
+        'ipython',
         'Jinja2',
         'vizarray',
         'ipythonblocks', # vizarray dependency
