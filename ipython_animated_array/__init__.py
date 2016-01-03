@@ -19,7 +19,6 @@ class AnimateArray(object):
         ]
 
     def show(self, reflesh=1000):
-        print(reflesh)
         template = self.env.get_template('animatetag.tpl.html')
         display(HTML(template.render({
             'htmls': self.htmls,
