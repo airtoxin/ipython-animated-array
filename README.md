@@ -1,5 +1,11 @@
 # ipython-animated-array
 
+[![PyPi version](https://img.shields.io/pypi/v/ipython-animated-array.svg)](https://pypi.python.org/pypi/ipython-animated-array)
+[![PyPi downloads](https://img.shields.io/pypi/dm/ipython-animated-array.svg)](https://pypi.python.org/pypi/ipython-animated-array)
+[![Build Status](https://travis-ci.org/airtoxin/ipython-animated-array.svg?branch=master)](https://travis-ci.org/airtoxin/ipython-animated-array)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/airtoxin/ipython-animated-array/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/airtoxin/ipython-animated-array.svg)](https://github.com/airtoxin/ipython-animated-array/stargazers)
+
 render animated array on ipython-notebook (jupyter)
 
 [![https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c](https://i.gyazo.com/5e0f68746ce124a0891749903b6c8a3c.gif)](https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c)
