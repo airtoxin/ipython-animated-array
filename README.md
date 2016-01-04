@@ -37,6 +37,10 @@ Show animate array.
 __reflesh=1000__ `reflesh animation duration(ms).`
 
 
+## Example
+
+open [example directory](https://github.com/airtoxin/ipython-animated-array/tree/master/example) via your ipython-notebook (or jupyter-notebook).
+
 ## License
 
 MIT
