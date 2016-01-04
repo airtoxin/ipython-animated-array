@@ -8,6 +8,8 @@
 
 render animated array on ipython-notebook (jupyter)
 
+[![https://gyazo.com/170088a47a42390bb62460d913d3d4b3](https://i.gyazo.com/170088a47a42390bb62460d913d3d4b3.gif)](https://gyazo.com/170088a47a42390bb62460d913d3d4b3)
+
 [![https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c](https://i.gyazo.com/5e0f68746ce124a0891749903b6c8a3c.gif)](https://gyazo.com/5e0f68746ce124a0891749903b6c8a3c)
 
 
@@ -22,13 +24,13 @@ render animated array on ipython-notebook (jupyter)
 
 #### _Class_ `ipython_animated_array.AnimateArray`
 
-##### `constructor(viz_list, cmap='cool')`
+##### _constructor_ `__init__(viz_list, cmap='cool')`
 
 __viz\_list__: list of animating array(1d or 2d).
 
 __cmap='cool'__: [color map name](http://matplotlib.org/users/colormaps.html)
 
-##### _Method_ `animate_array.show(reflesh=1000)`
+##### _AnimateArray Instance Method_ `animate_array.show(reflesh=1000)`
 
 Show animate array.
 
