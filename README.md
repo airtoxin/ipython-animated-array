@@ -30,11 +30,11 @@ __viz\_list__: list of animating array(1d or 2d).
 
 __cmap='cool'__: [color map name](http://matplotlib.org/users/colormaps.html)
 
-##### _AnimateArray Instance Method_ `animate_array.show(reflesh=1000)`
+##### _AnimateArray Instance Method_ `animate_array.show(refresh=1000)`
 
 Show animate array.
 
-__reflesh=1000__ `reflesh animation duration(ms).`
+__refresh=1000__ `refresh animation duration(ms).`
 
 
 ## Example
