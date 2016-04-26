@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='ipython-animated-array',
-    version='1.0.0',
+    version='1.1.0',
     description='animated array rendering on ipython-notebook (jupyter)',
     long_description=long_description,
     author='Ryoji Ishii',
